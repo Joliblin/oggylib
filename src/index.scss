@@ -1,0 +1,62 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+  margin: 0;
+  font-family: "Montserrat",system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper{
+  padding-bottom: 50px;
+}
+
+header{
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 70px;
+  
+    .top {
+      margin-top: 20px;
+      position: absolute;
+      z-index: 5;
+    }
+
+    .nav{
+      gap: 60px;
+    }
+
+    .icon{
+      gap: 15px;
+    }
+    
+    .gradUp {
+      width: 1920px;
+      height: 85px;
+      background: linear-gradient(270deg, #EDB300 1.41%, #FDE300 47.93%, rgba(253, 227, 0, 0.02) 100%);
+    }
+}
+
+
+
+.main{
+
+}
+
+
+.footer{
+  position: fixed;
+  height: 85px;
+  bottom: 0;
+  .gradDown{
+    width: 1920px;
+    height: 85px;
+    background: linear-gradient(270deg, #EDB300 1.41%, #FDE300 47.93%, rgba(253, 227, 0, 0.02) 100%);
+      transform: rotate(-180deg);
+  }
+}
+
