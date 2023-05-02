@@ -12,45 +12,68 @@ body {
 }
 
 .wrapper{
+  max-width: 1920px;
+  margin: 25px 0px;
   padding-bottom: 50px;
 }
 
+
+.App nav{
+  text-align: center;
+}
+
+/* Styling for App component nav element anchor 
+tag and Course component nav element anchor tag */
+.App nav a,
+.mybooks-nav a,
+.journal-nav a {
+  padding: 20px 20px;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Styling for the Home component main div */
+.Page {
+  margin-top: 40px;
+  width: 100%;
+  height: 52px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 5px;
+  background-color: #D9D9D9;
+}
+
+  // background-color: transparent;
+
+
 header{
   max-width: 1920px;
-  margin: 0 auto;
-  padding: 0 395px;
-  margin-bottom: 39px;
+  margin: 0 210px;
+  padding: 0 0;
+  .top{
+    z-index: 1;
+  }
   
-    .top {
-      margin-top: 20px;
-      position: absolute;
-      z-index: 5;
-    }
-
-    .nav{
-      gap: 60px;
-    }
-
+  
     .icon{
       gap: 15px;
     }
-    
-    .gradUp {
-      width: 715px;
-      height: 85px;
-      transform: translate(753px, 0px);
-      background: linear-gradient(270deg, #EDB300 1.41%, #FDE300 47.93%, rgba(253, 227, 0, 0.02) 100%);
-    }
 }
-
-
-main {
-  .themeGray {
+.themeGray {
     margin-bottom: 20px;
-    width: 1863px;
-    height: 196px;
+    width: 1920px;
+    height: 52px;
     background-color: #D9D9D9;
   }
+
+main {
+
+
+
   .partOfTable {
     display: flex;
     flex-direction: column;
@@ -100,12 +123,6 @@ main {
   .GradPictures {
     gap: 11px;
     margin-bottom: 35px;
-  }
-  .gradDown{
-    width: 715px;
-    height: 85px;
-    background: linear-gradient(270deg, #EDB300 1.41%, #FDE300 47.93%, rgba(253, 227, 0, 0.02) 100%);
-    transform: rotate(-180deg);
   }
 
 
