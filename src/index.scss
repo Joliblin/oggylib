@@ -1,4 +1,4 @@
-html{
+html {
   height: 100%;
 }
 
@@ -6,19 +6,19 @@ body {
   height: 100%;
   line-height: 1;
   margin: 0;
-  font-family: "Montserrat",system-ui;
+  font-family: "Montserrat", system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.wrapper{
+.wrapper {
   max-width: 1920px;
   margin: 25px 0px;
   padding-bottom: 50px;
 }
 
 
-.App nav{
+.App nav {
   text-align: center;
 }
 
@@ -47,28 +47,23 @@ tag and Course component nav element anchor tag */
   background-color: #D9D9D9;
 }
 
-  // background-color: transparent;
+// background-color: transparent;
 
 
-header{
+header {
   max-width: 1920px;
   margin: 0 210px;
   padding: 0 0;
-  .top{
+
+  .top {
     z-index: 1;
   }
-  
-  
-    .icon{
-      gap: 15px;
-    }
-}
-.themeGray {
-    margin-bottom: 20px;
-    width: 1920px;
-    height: 52px;
-    background-color: #D9D9D9;
+
+
+  .icon {
+    gap: 15px;
   }
+}
 
 main {
 
@@ -79,31 +74,56 @@ main {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    width: 100%;
 
-  
   }
+
   .nameOfTable {
     display: flex;
     gap: 150px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #CCCCCC;
+
   }
+
   table {
     border: 1px solid black;
     display: table;
+    border-collapse: collapse;
   }
+
+  .editTable {
+    background: #6D6D6D;
+    height: 68.46px;
+
+  }
+
   tr {
     border: 2px solid black;
   }
+
   td {
     padding-right: 150px;
     border: 1px solid black;
-  
+
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    z-index: 1;
   }
 }
-.footer{
+
+.footer {
   position: fixed;
   height: 160px;
   bottom: 0;
+
   .navigationOfHistory {
     display: flex;
     justify-content: space-around;
@@ -111,6 +131,7 @@ main {
     margin: 0 auto;
     padding: 0 657px;
   }
+
   .listOfNavigation {
     margin-top: 13px;
     display: flex;
@@ -119,10 +140,9 @@ main {
     z-index: 5;
     align-items: center;
   }
-  }
-  .GradPictures {
-    gap: 11px;
-    margin-bottom: 35px;
-  }
+}
 
-
+.GradPictures {
+  gap: 11px;
+  margin-bottom: 35px;
+}
